@@ -1,5 +1,8 @@
 def func_upper(s):
-    """ипользуем метод upper, чтобы на вывод подавались заглавные буквы"""
-    """11.2."""
+    '''Создаем docstring'''
     new_string = s.upper()
     return new_string
+
+def func_capital_letter(word):
+    """Ф-ция, которая превращает первые буквы слов в заглавные"""
+    return word.title()
